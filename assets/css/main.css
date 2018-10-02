@@ -2356,6 +2356,31 @@ input, select, textarea {
 		margin-bottom: 40px;
 	}
 
+	.resume-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+
+	.resume-button {
+		width: 150px;
+		border-radius: 5px;
+		padding: 10px 0;
+		background-color: rgb(74, 202, 168);
+		color: white;
+		font-size: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	}
+
+	.resume-button:hover {
+		background-color: #5ed0b1;
+		cursor: pointer;
+	}
+
 	.dev-icon {
 		width: 100px;
 		height: 100px;
